@@ -12,6 +12,7 @@
     ROLE_USER. The name ROLE_USER is arbitrary. -->
     <http auto-config="true">
         <intercept-url pattern="/**" access="ROLE_USER"/>
+        <http-basic />
     </http>
 
     <!-- authentication-manager is how Spring Security authenticates the user. -->
